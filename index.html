@@ -1,16 +1,131 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Name - Resume</title>
-    <!-- Add your CSS stylesheets here -->
-</head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
-    </header>
+  <title>Ganesh Sarakadam Portfolio</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Add your content here -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #000000; 
+      color: #ffffff;
+    }
+    
+    header {
+      background-color: #000000;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    
+    header h1 {
+      margin: 0;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav li {
+      margin-left: 1rem;
+    }
+    
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    
+    .content {
+      max-width: 800px;
+      margin: 1rem auto;
+      padding: 1rem;
+    }
+    
+    section {
+      margin-bottom: 2rem;
+    }
+    
+    section h2 {
+      color: #ff6600;
+    }
+    
+    footer {
+      background-color: #000000;
+      text-align: center;
+      padding: 1rem;
+      color: #ffffff;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Ganesh Sarakadam</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am currently pursuing a Master's degree in Computer Science at Ohio University with an expected graduation in May 2024. I have over 4 years of industry experience as a Software Engineer developing scalable and robust web applications and APIs. I am skilled in Angular, Node.js, Docker, and Kubernetes and have worked extensively with microservices architectures. I am looking for full-time software engineering roles after graduation.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>
+        <b>Languages:</b> Python, Java, JavaScript, TypeScript, C/C++<br>
+        <b>Web:</b> Angular, React, Node.js, HTML/CSS<br>
+        <b>Databases:</b> MongoDB, MySQL, PostgreSQL, Redis, Elasticsearch<br>
+        <b>Tools:</b> Git, Docker, Kubernetes, AWS, Kafka, Spark, Elasticsearch
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      
+      <h3>Property Search Web App</h3>
+      <p>Designed and built responsive property search web app with location suggestions, filters and map integration. Improved user experience leading to 85% increase in traffic.</p>
+
+      <h3>Ticket Workflow System</h3>
+      <p>Developed reusable components like "@mention" to enable collaboration. Implemented Redis caching for 50% faster metadata retrieval.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: ganesh.sarakadam@outlook.com<br>
+        Phone: 740-915-3257<br>
+        LinkedIn: <a href="https://www.linkedin.com/in/ganesh-sarakadam">linkedin.com/in/ganesh-sarakadam</a>
+      </p>
+    </section>
+
+  </div>
+  
+  <footer>
+    <p>Copyright © 2023 Ganesh Sarakadam</p>
+  </footer>
 
 </body>
 </html>
